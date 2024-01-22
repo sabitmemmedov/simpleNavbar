@@ -1,0 +1,195 @@
+header {
+  background-color: #cac6c6;
+}
+header nav {
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .barsBtn {
+  display: none;
+}
+header nav .barsBtn button {
+  border: 0;
+  background-color: transparent;
+}
+header nav .barsBtn button i {
+  font-size: 29px;
+}
+header nav .x {
+  display: block;
+}
+header nav .nav-menu {
+  display: block;
+}
+header nav .mobile-nav {
+  display: none;
+  padding: 20px 0;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  background-color: #fff;
+}
+header nav .mobile-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  align-items: start;
+  flex-direction: column;
+}
+header nav .mobile-nav ul li {
+  list-style: none;
+}
+header nav .mobile-nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #111;
+}
+header nav .mobile-nav ul li a button {
+  width: 140px;
+  height: 45px;
+  border-radius: 25px;
+  border: 0;
+  background-color: #994FFF;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+header nav .mobile-nav ul li a i {
+  color: #994FFF;
+  font-size: 19px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #111;
+}
+header nav ul li a button {
+  width: 140px;
+  height: 45px;
+  border-radius: 25px;
+  border: 0;
+  background-color: #994FFF;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+header nav ul li a i {
+  color: #994FFF;
+  font-size: 19px;
+}
+
+@media screen and (min-width: 0) and (max-width: 991px) {
+  header {
+    background-color: #d9d9d9;
+  }
+  header nav {
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .barsBtn {
+    display: block;
+  }
+  header nav .barsBtn button {
+    border: 0;
+    background-color: transparent;
+  }
+  header nav .barsBtn button i {
+    font-size: 29px;
+  }
+  header nav .x {
+    display: none;
+  }
+  header nav .nav-menu {
+    display: none;
+  }
+  header nav .mobile-nav {
+    display: none;
+    padding: 20px 0;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #e6e3e3;
+  }
+  header nav .mobile-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    flex-direction: column;
+  }
+  header nav .mobile-nav ul li {
+    list-style: none;
+  }
+  header nav .mobile-nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #111;
+  }
+  header nav .mobile-nav ul li a button {
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #994FFF;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  header nav .mobile-nav ul li a i {
+    color: #994FFF;
+    font-size: 19px;
+  }
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+  }
+  header nav ul li {
+    list-style: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #111;
+  }
+  header nav ul li a button {
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #994FFF;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  header nav ul li a i {
+    color: #994FFF;
+    font-size: 19px;
+  }
+}
